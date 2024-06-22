@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "three": "^0.165.0",
+    "three-globe": "^2.31.0"
+  },
+  "devDependencies": {
+    "json-loader": "^0.5.7"
+  }
+}

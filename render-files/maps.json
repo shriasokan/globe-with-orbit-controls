@@ -1,0 +1,21 @@
+{
+    "type": "Map",
+    "coordinates":[
+        {
+            "text": "IND",
+            "size": 1.0,
+            "country": "India",
+            "city": "Chennai",
+            "latitude": "13.089869",
+            "longitude": "80.245901"
+        },
+        {
+            "text": "UAE",
+            "size": 1.0,
+            "country": "United Arab Emirates",
+            "city": "Dubai",
+            "latitude": "23.214066",
+            "longitude": "53.195262"
+        }
+    ]
+}
