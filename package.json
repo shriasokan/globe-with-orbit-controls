@@ -4,6 +4,8 @@
     "three-globe": "^2.31.0"
   },
   "devDependencies": {
-    "json-loader": "^0.5.7"
+    "json-loader": "^0.5.7",
+    "webpack": "^5.92.1",
+    "webpack-cli": "^5.1.4"
   }
 }

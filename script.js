@@ -1,5 +1,5 @@
 //import  './style.css'
-import * as THREE from 'https://unpkg.com/three@0.126.1/build/three.module.js';
+import * as THREE from 'three'; //'https://unpkg.com/three@0.126.1/build/three.module.js';
 import { OrbitControls } from 'https://unpkg.com/three@0.126.1/examples/jsm/controls/OrbitControls.js';
 import ThreeGlobe from 'https://esm.sh/three-globe@2.30.0';
 import getStarfield from './getStarfield.js';
