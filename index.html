@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -13,6 +12,8 @@
   </head>
   <body>
     <div id="app"></div>
-    <script type="module" src="./script.js"></script>
+    <!-- Reference the Webpack output bundle instead of script.js -->
+    <script src="dist/bundle.js"></script>
+    <!-- Assuming your output bundle is in the dist directory -->
   </body>
 </html>

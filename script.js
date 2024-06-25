@@ -1,9 +1,14 @@
 //import  './style.css'
+/*
 import * as THREE from 'three'; //'https://unpkg.com/three@0.126.1/build/three.module.js';
 import { OrbitControls } from 'https://unpkg.com/three@0.126.1/examples/jsm/controls/OrbitControls.js';
-import ThreeGlobe from 'https://esm.sh/three-globe@2.30.0';
+import ThreeGlobe from 'three-globe'//https://esm.sh/three-globe@2.30.0';
 import getStarfield from './getStarfield.js';
-
+*/
+import * as THREE from 'three';
+import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
+import ThreeGlobe from 'three-globe';
+import getStarfield from './getStarfield.js';
 var renderer, camera, scene, controls;
 
 let mouseX = 0;
@@ -82,7 +87,7 @@ function initGlobe() {
     fetch('./render-files/custom.geo.json').then(res => res.json()).then(countries => 
         {
             Globe.hexPolygonsData(countries.features)
-            Globe.hexPolygonResolution(4)
+            Globe.hexPolygonResolution(3)
             Globe.hexPolygonMargin(0.5)
             //Globe.hexPolygonColor('#ffffff')
             Globe.showAtmosphere(true)
